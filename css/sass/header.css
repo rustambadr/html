@@ -1,0 +1,204 @@
+body header div.top {
+  padding: 15px 0;
+}
+
+body header div.top .container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+body header div.top .container .bottom-mobile {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #29344C;
+  z-index: 1;
+  padding: 28px;
+}
+
+body header div.top .container .bottom-mobile .mobile-button-close {
+  position: absolute;
+  top: 27px;
+  right: 34px;
+}
+
+body header div.top .container .bottom-mobile .p1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+body header div.top .container .bottom-mobile .menu {
+  margin-top: 31px;
+  margin-top: 31px;
+}
+
+body header div.top .container .bottom-mobile .menu a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 12px;
+}
+
+body header div.top .container .bottom-mobile .cont {
+  margin-top: 39px;
+  text-align: center;
+}
+
+body header div.top .container .bottom-mobile .cont a.phone {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+body header div.top .container .bottom-mobile .cont a.email {
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+body header div.top .container .bottom-mobile .address {
+  text-align: center;
+  margin-top: 23px;
+}
+
+body header div.top .container .bottom-mobile .address p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-bottom: 3px;
+}
+
+body header div.top .container .bottom-mobile .address a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+body header div.top .container .bottom-mobile .user_button_lk {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+body header div.top .container .bottom-mobile .user_button_lk a {
+  background: #D85252;
+  display: block;
+  padding: 21px;
+  text-align: center;
+}
+
+body header div.top .container .bottom-mobile .user_button_lk a span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+
+body header div.top .container .soc, body header div.top .container .location {
+  display: flex;
+}
+
+body header div.top .container .soc a, body header div.top .container .location a {
+  margin: auto;
+}
+
+body header div.top .container .soc a:not(:last-child), body header div.top .container .location a:not(:last-child) {
+  margin-right: 30px;
+}
+
+body header div.top .container .location a span {
+  font-size: 13px;
+  line-height: 16px;
+  color: #9A9A9A;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+body header div.top .container .location a:hover {
+  text-decoration: unset;
+}
+
+body header div.top .container .contacts a:first-child {
+  margin-top: 14px;
+}
+
+body header div.top .container .contacts a {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #252525;
+}
+
+body header div.top .container .contacts a span {
+  margin-left: 8px;
+}
+
+body header div.top .container .contacts a.email {
+  text-align: right;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #959595;
+}
+
+body header div.bottom {
+  background: #1A68B0;
+}
+
+body header div.bottom .container {
+  display: flex;
+}
+
+body header div.bottom div.nav a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 21px 26px;
+}
+
+body header div.bottom div.nav a.active, body header div.bottom div.nav a:hover {
+  background: #D85252;
+  text-decoration: unset;
+}
+
+body header div.bottom .user_button_lk {
+  display: flex;
+  background: #D85252;
+  margin-left: auto;
+  padding: 0 31px;
+}
+
+body header div.bottom .user_button_lk .lk_button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+body header div.bottom .user_button_lk .lk_button span {
+  vertical-align: middle;
+  margin-left: 6px;
+}

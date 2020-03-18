@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/maps.js"></script>
+
+    <title>Site</title>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <div class="container">
+          <div class="logo">
+            <a href="#"><img src="/img/logo.svg" alt=""></a>
+          </div>
+          <div class="soc">
+            <a href="#"><img src="/img/fb.svg" alt=""></a>
+            <a href="#"><img src="/img/inst.svg" alt=""></a>
+            <a href="#"><img src="/img/tg.svg" alt=""></a>
+          </div>
+          <div class="location">
+            <a href="#"><img src="/img/loc.svg" alt=""><span>Наш адрес: г. Москва ул. Тест д.2</span></a>
+          </div>
+          <div class="contacts">
+            <a href="#"><img src="/img/phone.svg" alt=""><span>+998 71 207 6556</span></a>
+            <a href="#" class="email">info@analizy.uz</a>
+          </div>
+
+          <a href="#" class="mobile-button"><img src="/img/menu.svg" alt=""></a>
+          <div class="bottom-mobile">
+            <a href="#" class="mobile-button-close"><img src="/img/close.svg" alt=""></a>
+
+            <p class="p1">Меню</p>
+            <div class="menu">
+              <a href="index.html">Главная</a>
+              <a href="#">Анализы и цены</a>
+              <a href="#">Где и как сдать анализ</a>
+              <a href="prepare.html">Подготовка к анализам</a>
+              <a href="doctors.html">Врачам</a>
+              <a href="company.html">Организациям</a>
+            </div>
+            <div class="cont">
+              <a href="#" class="phone"><img src="/img/fphone.svg" alt=""> +998 71 207 6556</a>
+              <a href="#" class="email">info@analizy.uz</a>
+            </div>
+            <div class="address">
+              <p>Наш адрес:</p>
+              <a href="#">г.Ташкент, Алмазарский р-н, ул Широк, д.100</a>
+            </div>
+            <div class="soc">
+              <a href="#"><img src="/img/ffb.svg" alt=""></a>
+              <a href="#"><img src="/img/finst.svg" alt=""></a>
+              <a href="#"><img src="/img/ftg.svg" alt=""></a>
+            </div>
+            <div class="user_button_lk">
+              <a class="lk_button" href="#"><img src="/img/user.svg" alt=""><span>Личный кабинет</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="container">
+          <div class="nav">
+            <a href="index.html">Главная</a>
+            <a href="#">Анализы и цены</a>
+            <a href="#">Где и как сдать анализ</a>
+            <a href="prepare.html">Подготовка к анализам</a>
+            <a class="active" href="doctors.html">Врачам</a>
+            <a href="company.html">Организациям</a>
+          </div>
+          <div class="user_button_lk">
+            <a class="lk_button" href="#"><img src="/img/user.svg" alt=""><span>Личный кабинет</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="main-slider">
+      <div id="slider1">
+        <div class="slide" style="background-image: url(/img/slider3.png);">
+          <div class="container">
+            <p class="p1">выгодные условия сотрудничества для врачей</p>
+            <p class="p2">Интересно ли Вам сотрудничать с надежной и точной лабораторией? Мы готовы помочь с этим!</p>
+            <a href="#" class="btn btn-red">Узнать о сотрудничестве</a>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image: url(/img/slider3.png);">
+          <div class="container">
+            <p class="p1">Точные исследования вашего организма в лаборатории «SWISSLAB»</p>
+            <p class="p2">«SWISSLAB» - первая в Узбекистане инновационная сеть лабораторий, выполняющая все основные виды анализов в минимально короткие сроки</p>
+            <a href="#" class="btn btn-red">Подробнее о лаборатории</a>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image: url(/img/slider3.png);">
+          <div class="container">
+            <p class="p1">Точные исследования вашего организма в лаборатории «SWISSLAB»</p>
+            <p class="p2">«SWISSLAB» - первая в Узбекистане инновационная сеть лабораторий, выполняющая все основные виды анализов в минимально короткие сроки</p>
+            <a href="#" class="btn btn-red">Подробнее о лаборатории</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="container">
+        <p class="p1">КДЛ «SWISSLAB» - партнер №1 в проведении клинических исследований </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about">
+              <div class="icon">
+                <img src="/img/ab-icon1.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="static">01</p>
+                <p>Более 1500 выполняемых исследований, а также введение новых исследований по запросу клиента</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about">
+              <div class="icon">
+                <img src="/img/ab-icon2.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="static">02</p>
+                <p>Анализ на единой технологической площадке по единым стандартам и низкие затраты на логистику </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about">
+              <div class="icon">
+                <img src="/img/ab-icon3.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="static">03</p>
+                <p>Внешний и внутренний контроль качества, доступность аудитам. Сертификаты  ISO 9001:2008, ISO 9001:2015, ISO 14001:2015, OHSAS 18001:2007</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about">
+              <div class="icon">
+                <img src="/img/ab-icon4.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="static">04</p>
+                <p>Удобный доступ к интегрированной базе данных с результатами исследований и штрих-кодирование образцов</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about">
+              <div class="icon">
+                <img src="/img/ab-icon5.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="static">05</p>
+                <p>Бланки результатов в согласованном формате. Удобная единая выгрузка по окончании проекта, обеспечение лабораторными наборами, инструкциями, служба клиентской поддержки </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about">
+              <div class="icon">
+                <img src="/img/ab-icon6.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="static">06</p>
+                <p>Взятие биоматериала и переход от открытой технологии взятия крови к закрытой безопасной системе, одноразовые тампоны, контейнеры</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-service">
+      <div class="container">
+        <div class="left">
+          <p class="p1">Лабораторная служба КДЛ«SWISSLAB» запустила уникальный инструмент для эффективной работы врача.</p>
+          <p class="p2">Личный кабинет врача на сайте КДЛ «SWISSLAB» - это единое информационное пространство, позволяющее хранить и систематизировать всю информацию о пациентах. Личный кабинет врача на сайте КДЛ «SWISSLAB» – лучший способ организовать работу с лабораторией. С помощью этой опции у врача появится возможность самостоятельно формировать направления на лабораторные исследования, просматривать показатели результатов исследований в динамике и сравнивать их с нормой. С использованием Личного кабинета взаимодействие врача и лаборатории осуществляется максимально быстро и просто. </p>
+        </div>
+        <div class="right">
+          <div class="image"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="doct-callme">
+      <div class="container">
+        <p class="p1">Заинтересовались доступными преимуществами?</p>
+        <p class="p2">Зарегистрируйтесь в Личном кабинете врача и ознакомьтесь с нашим прайсом, скачав его прямо сейчас </p>
+        <div class="cont">
+          <a href="#" class="btn btn-red">Зарегистрироваться на сайте</a>
+          <a href="#" class="btn btn-white ml-2"><img src="/img/cloud.svg"> Скачать прайс (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="doct-steps">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="step">
+              <div class="image">
+                <img src="/img/d-icon1.svg" alt="">
+              </div>
+              <p class="p1">Преаналитический этап</p>
+              <p class="p2">Подготовка пациента, назначение исследования, регистрация и взятие биоматериала, транспортировка в лабораторию, сортировка образцов.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="step">
+              <div class="image">
+                <img src="/img/d-icon2.svg" alt="">
+              </div>
+              <p class="p1">Аналитический этап</p>
+              <p class="p2">Непосредственное проведение лабораторного исследования, включая проведение мероприятий по контролю качества.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="step">
+              <div class="image">
+                <img src="/img/d-icon3.svg" alt="">
+              </div>
+              <p class="p1">Постаналитический этап</p>
+              <p class="p2">Валидация полученного результата исследования врачом лаборатории, лабораторное заключение, выдача результата пациенту или лечащему врачу и решение на основе результатов исследования клинической задачи. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-service2">
+      <div class="container">
+        <div class="right">
+          <p>SWISSLAB</p>
+          <div class="image"></div>
+        </div>
+        <div class="left">
+          <p class="p1">Осуществление внутреннего контроля качества лаборатории</p>
+          <p class="p2">В лаборатории осуществляется постоянный контроль качества на основании положений и документов Системы менеджмента качества (СМК), разработанных в соответствии с рекомендациями Международной организации по сертификации ISO, ВОЗ, узбекистанскими нормативными документами и рекомендациями международных научных сообществ по клинической химии и гематологии. </p>
+          <a href="#" class="btn btn-red">Узнать больше о лаборатории</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-service3">
+      <div class="container">
+        <div class="left">
+          <p class="p1">Осуществление внутреннего контроля качества лаборатории</p>
+          <p class="p2">В лаборатории осуществляется постоянный контроль качества на основании положений и документов Системы менеджмента качества (СМК), разработанных в соответствии с рекомендациями Международной организации по сертификации ISO, ВОЗ, узбекистанскими нормативными документами и рекомендациями международных научных сообществ по клинической химии и гематологии. </p>
+          <a href="#" class="btn btn-red">Узнать больше о лаборатории</a>
+        </div>
+        <div class="right">
+          <div class="image"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-12">
+            <div class="logo">
+              <p class="p1">«SWISSLAB»</p>
+              <p class="p2">Независимая лаборатория</p>
+            </div>
+            <div class="license">
+              <p>Лицензия ООО СП «SwissLab» лицензия #01034 от 6.12.2018 </p>
+            </div>
+            <div class="apps">
+              <p>Наше приложение:</p>
+              <a href="#"><img src="/img/iapp.svg" alt=""> </a>
+              <a href="#"><img src="/img/google.svg" alt=""> </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+            <div class="menu">
+              <a href="index.html">Главная</a>
+              <a href="#">Анализы и цены</a>
+              <a href="#">Где и как сдать анализ</a>
+              <a href="prepare.html">Подготовка к анализам</a>
+              <a class="active" href="doctors.html">Врачам</a>
+              <a href="company.html">Организациям</a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+            <div class="menu2">
+              <a href="#" class="lk"><img src="/img/fuser.svg" alt=""> Личный кабинет</a>
+              <a href="#" class="tg">Telegram-канал: <u>t.me/swisslabuz</u></a>
+              <br>
+              <div class="soc">
+                <a href="#"><img src="/img/ffb.svg" alt=""></a>
+                <a href="#"><img src="/img/finst.svg" alt=""></a>
+                <a href="#"><img src="/img/ftg.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+            <div class="menu2">
+              <a href="#" class="email">info@analizy.uz</a>
+              <p class="address">Наш адрес: <br><span>г.Ташкент, Алмазарский р-н, ул Широк, д.100</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="callme">
+              <a href="#" class="phone"><img src="/img/fphone.svg" alt=""> +998 71 207 6556</a>
+              <a href="#" onclick="$('#callme').modal('show');return false;" class="btn btn-invis">Заказать звонок</a>
+              <a href="#" class="up">Наверх</a>
+            </div>
+          </div>
+        </div>
+        <div class="finfo">
+          <p class="p1">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ, ПРОКОНСУЛЬТИРУЙТЕСЬ СО СПЕЦИАЛИСТОМ</p>
+          <p class="p2">Все права защищены. 2019 - 2020. SWISSLAB</p>
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-labelledby="callmeModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <form action="" method="get">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="callmeModal">Обратная связь</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="recipient-phone" class="col-form-label">Ваш телефон:</label>
+                <input type="text" class="form-control" name="phone" id="recipient-phone" required>
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Сообщение:</label>
+                <textarea class="form-control" name="message" id="message-text"></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+              <button class="btn btn-primary" type="submit">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

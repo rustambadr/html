@@ -1,0 +1,51 @@
+body #slider1 {
+  margin-bottom: 0px;
+}
+
+body #slider1 .slick-dots {
+  top: calc(50% - 42px);
+  bottom: unset;
+  right: 0px;
+  width: 35px;
+}
+
+body #slider2, body #slider3, body #slider4 {
+  margin-top: -60px;
+  margin-bottom: 60px;
+}
+
+body #slider2 .slick-dots, body #slider3 .slick-dots, body #slider4 .slick-dots {
+  bottom: -60px;
+}
+
+body #slider2 li button, body #slider3 li button, body #slider4 li button {
+  width: 0;
+  height: 0;
+}
+
+body #slider2 li.slick-active button, body #slider3 li.slick-active button, body #slider4 li.slick-active button {
+  color: white;
+  font-size: 17px;
+  margin-left: -68px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0;
+  margin-top: 0;
+}
+
+body #slider2 li.slick-active:after, body #slider3 li.slick-active:after, body #slider4 li.slick-active:after {
+  content: '-';
+  font-size: 0px;
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  width: 20px;
+  border: unset;
+  top: 4px;
+  left: -39px;
+}
+
+body #slider3, body #slider4 {
+  margin-top: 0px;
+}

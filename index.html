@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/maps.js"></script>
+
+    <title>Site</title>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <div class="container">
+          <div class="logo">
+            <a href="#"><img src="/img/logo.svg" alt=""></a>
+          </div>
+          <div class="soc">
+            <a href="#"><img src="/img/fb.svg" alt=""></a>
+            <a href="#"><img src="/img/inst.svg" alt=""></a>
+            <a href="#"><img src="/img/tg.svg" alt=""></a>
+          </div>
+          <div class="location">
+            <a href="#"><img src="/img/loc.svg" alt=""><span>Наш адрес: г. Москва ул. Тест д.2</span></a>
+          </div>
+          <div class="contacts">
+            <a href="#"><img src="/img/phone.svg" alt=""><span>+998 71 207 6556</span></a>
+            <a href="#" class="email">info@analizy.uz</a>
+          </div>
+
+          <a href="#" class="mobile-button"><img src="/img/menu.svg" alt=""></a>
+          <div class="bottom-mobile">
+            <a href="#" class="mobile-button-close"><img src="/img/close.svg" alt=""></a>
+
+            <p class="p1">Меню</p>
+            <div class="menu">
+              <a href="index.html">Главная</a>
+              <a href="#">Анализы и цены</a>
+              <a href="index.html#depos-map1">Где и как сдать анализ</a>
+              <a href="prepare.html">Подготовка к анализам</a>
+              <a href="doctors.html">Врачам</a>
+              <a href="company.html">Организациям</a>
+            </div>
+            <div class="cont">
+              <a href="#" class="phone"><img src="/img/fphone.svg" alt=""> +998 71 207 6556</a>
+              <a href="#" class="email">info@analizy.uz</a>
+            </div>
+            <div class="address">
+              <p>Наш адрес:</p>
+              <a href="#">г.Ташкент, Алмазарский р-н, ул Широк, д.100</a>
+            </div>
+            <div class="soc">
+              <a href="#"><img src="/img/ffb.svg" alt=""></a>
+              <a href="#"><img src="/img/finst.svg" alt=""></a>
+              <a href="#"><img src="/img/ftg.svg" alt=""></a>
+            </div>
+            <div class="user_button_lk">
+              <a class="lk_button" href="#"><img src="/img/user.svg" alt=""><span>Личный кабинет</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="container">
+          <div class="nav">
+            <a class="active" href="index.html">Главная</a>
+            <a href="#">Анализы и цены</a>
+            <a href="index.html#depos-map1">Где и как сдать анализ</a>
+            <a href="prepare.html">Подготовка к анализам</a>
+            <a href="doctors.html">Врачам</a>
+            <a href="company.html">Организациям</a>
+          </div>
+          <div class="user_button_lk">
+            <a class="lk_button" href="#"><img src="/img/user.svg" alt=""><span>Личный кабинет</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="main-slider">
+      <div id="slider1">
+        <div class="slide" style="background-image: url(/img/slider.svg);">
+          <div class="container">
+            <p class="p1">Точные исследования вашего организма в лаборатории «SWISSLAB»</p>
+            <p class="p2">«SWISSLAB» - первая в Узбекистане инновационная сеть лабораторий, выполняющая все основные виды анализов в минимально короткие сроки</p>
+            <a href="#" class="btn btn-red">Подробнее о лаборатории</a>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image: url(/img/slider.svg);">
+          <div class="container">
+            <p class="p1">Точные исследования вашего организма в лаборатории «SWISSLAB»</p>
+            <p class="p2">«SWISSLAB» - первая в Узбекистане инновационная сеть лабораторий, выполняющая все основные виды анализов в минимально короткие сроки</p>
+            <a href="#" class="btn btn-red">Подробнее о лаборатории</a>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image: url(/img/slider.svg);">
+          <div class="container">
+            <p class="p1">Точные исследования вашего организма в лаборатории «SWISSLAB»</p>
+            <p class="p2">«SWISSLAB» - первая в Узбекистане инновационная сеть лабораторий, выполняющая все основные виды анализов в минимально короткие сроки</p>
+            <a href="#" class="btn btn-red">Подробнее о лаборатории</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-slider">
+      <div class="container">
+        <div id="slider2">
+          <div class="news" style="background-image: url(/img/news-slide1.png);">
+            <p class="p1">Новые методы забора крови</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide2.png);">
+            <p class="p1">Японские ученные доказали существование p-гена</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide3.png);">
+            <p class="p1">Открытие медицинского офиса в ташкенте</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide1.png);">
+            <p class="p1">Новые методы забора крови</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide2.png);">
+            <p class="p1">Японские ученные доказали существование p-гена</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide3.png);">
+            <p class="p1">Открытие медицинского офиса в ташкенте</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide1.png);">
+            <p class="p1">Новые методы забора крови</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide2.png);">
+            <p class="p1">Японские ученные доказали существование p-гена</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+
+          <div class="news" style="background-image: url(/img/news-slide3.png);">
+            <p class="p1">Открытие медицинского офиса в ташкенте</p>
+            <p class="p2">Равным образом консультация с широким активом требуют определения и уточнения системы обучения кадров</p>
+            <a href="#">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="issue-agreement">
+      <div class="logo-text">
+        <p>SWISSLAB</p>
+      </div>
+      <div class="container">
+        <p class="p0">Как правильно сдать анализы для исследования? Необходимые шаги:</p>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="agreement">
+              <img src="/img/agr-icon1.svg" alt="">
+              <p class="p1">Подготовиться к исследованию</p>
+              <p class="p2">При оформлении <a href="#">предварительного заказа</a> Вы автоматически получите информацию о правилах подготовки на ваш e-mail. Также, узнать правила подготовки можно <a href="#">в соответствующем разделе на сайте</a> (подготовка к анализам) и в <a href="#">каталоге</a> на странице каждого исследования. </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <div class="agreement">
+              <img src="/img/agr-icon2.svg" alt="">
+              <p class="p1">Взять с собой документы</p>
+              <p class="p2">Они понадобятся для корректного оформления заказа, чтобы в дальнейшем не возникло трудностей с удостоверением личности</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <div class="agreement">
+              <img src="/img/agr-icon3.svg" alt="">
+              <p class="p1">Взять с собой дисконтную Карту пациента SwissLab</p>
+              <p class="p2">Если у Вас еще нет Карты, Вы обязательно получите е при первом же заказе в любом из медицинских офисов КДЛ «SWISSLAB». </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <div class="agreement">
+              <img src="/img/agr-icon4.svg" alt="">
+              <p class="p1">Взять с собой законного представителя</p>
+              <p class="p2">Или опекуна с соответствующими документами, если вы еще не достигли совершеннолетия. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex mt-4">
+          <a href="#" class="btn btn-red m-auto">Оформить предзаказ на анализ</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="depos-map1" id="depos-map1" data-center-origin="55.76,37.64">
+      <div class="container">
+        <div class="anatomy">
+          <p class="p1">Где можно сдать анализы?</p>
+          <p class="p2">Выберите на карте медицинский офис «SWISSLAB», ознакомьтесь с режимом работы и информацией об удобном маршруте до офиса, учитывая Ваше местоположение.</p>
+          <div class="group-list">
+
+            <div class="item" data-origin="55.8,37.8">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="address">г.Ташкент, Яккасрайский р-не, ул. Массив Кушбеги, рядом с домом No11, напротив Инфекционной больницы No3 </p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <p class="how">Как добраться?</p>
+                <p class="cars">Автобусы: 32; 62; 70</p>
+                <p class="cars">Маршрутки: 18и; 19и</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.833436,37.715175">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="address">г.Ташкент, Яккасрайский р-не, ул. Массив Кушбеги, рядом с домом No11, напротив Инфекционной больницы No3 </p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <p class="how">Как добраться?</p>
+                <p class="cars">Автобусы: 32; 62; 70</p>
+                <p class="cars">Маршрутки: 18и; 19и</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.813836,37.715175">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="address">г.Ташкент, Яккасрайский р-не, ул. Массив Кушбеги, рядом с домом No11, напротив Инфекционной больницы No3 </p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <p class="how">Как добраться?</p>
+                <p class="cars">Автобусы: 32; 62; 70</p>
+                <p class="cars">Маршрутки: 18и; 19и</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.873136,37.715175">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="address">г.Ташкент, Яккасрайский р-не, ул. Массив Кушбеги, рядом с домом No11, напротив Инфекционной больницы No3 </p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <p class="how">Как добраться?</p>
+                <p class="cars">Автобусы: 32; 62; 70</p>
+                <p class="cars">Маршрутки: 18и; 19и</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.833436,37.775375">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="address">г.Ташкент, Яккасрайский р-не, ул. Массив Кушбеги, рядом с домом No11, напротив Инфекционной больницы No3 </p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <p class="how">Как добраться?</p>
+                <p class="cars">Автобусы: 32; 62; 70</p>
+                <p class="cars">Маршрутки: 18и; 19и</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.933436,37.775375">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.833436,37.175375">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="maps" id="maps1"></div>
+      </div>
+    </section>
+
+    <section class="service">
+      <div class="logo-text2">
+        <p>service</p>
+      </div>
+      <div class="container">
+        <p class="p1">К Вашим услугам мобильная служба КДЛ«SWISSLAB»</p>
+        <p class="p2">Сдавайте анализы там, где Вам удобно. Стоимость выезда медработника на дом или в офис - 20000 сум.</p>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="info">
+              <img src="/img/ser-icon1.svg" alt="">
+              <p class="p3">Взятие биоматериала у детей с рождения </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="info">
+              <img src="/img/ser-icon2.svg" alt="">
+              <p class="p3">Возможность оплаты банковскими картами</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="info">
+              <img src="/img/ser-icon3.svg" alt="">
+              <p class="p3">Опытные и аккуратные медицинские сестры</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="info">
+              <img src="/img/ser-icon4.svg" alt="">
+              <p class="p3">Работаем 7 дней в неделю без выходных</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="info">
+              <img src="/img/ser-icon5.svg" alt="">
+              <p class="p3">Оплата только за 1 выезд при любом количестве пациентов</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="info">
+              <img src="/img/ser-icon6.svg" alt="">
+              <p class="p3">Срочный выезд в день оформления заявки</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="preorder">
+      <div class="container">
+        <p>Оформите заявку любым удобным способом:</p>
+        <a href="#" class="btn btn-invis">Оформить предзаказ</a>
+        <a href="#" onclick="$('#callme').modal('show');return false;" class="btn btn-invis">Заказать звонок</a>
+        <a href="#" class="btn btn-red">Позвоните по телефону </a>
+      </div>
+    </section>
+
+    <section class="comp-learn3">
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="container">
+        <div class="content">
+          <p class="p2">Наши преимущества</p>
+          <p class="p1">КДЛ «SWISSLAB» - партнер №1 в проведении клинических исследований </p>
+          <div class="group">
+            <p class="num"><img src="/img/m-icon1.svg" alt=""></p>
+            <p class="text">Более 1500 выполняемых исследований</p>
+          </div>
+          <div class="group">
+            <p class="num"><img src="/img/m-icon2.svg" alt=""></p>
+            <p class="text">Личный кабинет пациента</p>
+          </div>
+          <div class="group">
+            <p class="num"><img src="/img/m-icon3.svg" alt=""></p>
+            <p class="text">Дисконтная программа по карте пациента</p>
+          </div>
+          <div class="group">
+            <p class="num"><img src="/img/m-icon4.svg" alt=""></p>
+            <p class="text">АНАЛИЗ НА ЕДИНОЙ ТЕХНОЛОГИЧЕСКОЙ ПЛОЩАДКЕ ПО ЕДИНЫМ СТАНДАРТАМ и НИЗКИЕ ЗАТРАТЫ НА ЛОГИСТИКУ</p>
+          </div>
+          <div class="group">
+            <p class="num"><img src="/img/m-icon5.svg" alt=""></p>
+            <p class="text">Удобный доступ к интегрированной базе данных с результатами исследований и штрих-кодирование образцов</p>
+          </div>
+          <div class="group">
+            <p class="num"><img src="/img/m-icon6.svg" alt=""></p>
+            <p class="text">Взятие биоматериала и переход от открытой технологии взятия крови к закрытой безопасной системе, одноразовые тампоны, контейнеры</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lab-service4">
+      <div class="container">
+        <div class="left">
+          <p class="p1">Осуществление внутреннего контроля качества лаборатории</p>
+          <p class="p2">В лаборатории осуществляется постоянный контроль качества на основании положений и документов Системы менеджмента качества (СМК), разработанных в соответствии с рекомендациями Международной организации по сертификации ISO, ВОЗ, узбекистанскими нормативными документами и рекомендациями международных научных сообществ по клинической химии и гематологии. </p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="serv4">
+                <p class="num">01</p>
+                <p class="p3">Удобно планировать свое время и архив результатов исследований всегда под рукой</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="serv4">
+                <p class="num">02</p>
+                <p class="p3">Анализируйте динамику исследований и получаейте оповещение о готовности результатов по e-mail и телеграмм</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="serv4">
+                <p class="num">03</p>
+                <p class="p3">Номер предварительного заказа действует в течение месяца со дня оформления, а потом просто аннулируется. Создание предварительного заказа ни к чему вас не обязывает</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="serv4">
+                <p class="num">04</p>
+                <p class="p3">Вы можете заранее узнать правила подготовки к исследованиям и получить эту информацию на e-mail, чтобы ничего не забыть</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="image"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="depos-map2" data-center-origin="55.76,37.64">
+      <div class="container">
+        <div class="anatomy">
+          <p class="p1">Наши постоянные партнеры</p>
+          <p class="p2">Узнайте о наших партнерах больше, чтобы воспользоваться их услугами по максимуму</p>
+          <div class="group-list">
+
+            <div class="item" data-origin="55.8,37.8">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.833436,37.715175">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.813836,37.715175">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.873136,37.715175">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.833436,37.775375">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.933436,37.775375">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+            <div class="item" data-origin="55.833436,37.175375">
+              <div class="short-info">
+                <p class="p3">Медицинский офис на Кушбеги 1</p>
+                <img class="plus" src="/img/plus.svg" alt="">
+              </div>
+              <div class="full-info">
+                <p class="p3">Медицинский офис на Кушбеги</p>
+                <p class="clock">Без записи и выходных с 7-00 до 19-00</p>
+                <p class="bus">Остановка” Горбольница № 3</p>
+                <img class="minus" src="/img/minus.svg" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="maps" id="maps2"></div>
+      </div>
+    </section>
+
+    <section class="logotips">
+      <div class="container">
+        <div id="slider3">
+          <div class="logo">
+            <img src="/img/logos_1.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_2.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_3.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_1.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_2.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_3.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_1.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_2.svg" alt="">
+          </div>
+          <div class="logo">
+            <img src="/img/logos_3.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="personal">
+      <div class="logo-text3">
+        <p>professionals</p>
+      </div>
+      <div class="container">
+        <p class="p1">Познакомьтесь с нашими сотрудниками - профессионалами своего дела</p>
+        <div id="slider4">
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 1</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 2</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 3</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 4</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 5</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 6</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 7</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 8</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="person">
+            <div class="setting">
+              <div class="image">
+                <img src="/img/pres1.png" alt="">
+              </div>
+              <div class="info">
+                <p class="name">Соломонова Галина Ивановна 9</p>
+                <p class="title">Консультирующий врач-терапевт</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-12">
+            <div class="logo">
+              <p class="p1">«SWISSLAB»</p>
+              <p class="p2">Независимая лаборатория</p>
+            </div>
+            <div class="license">
+              <p>Лицензия ООО СП «SwissLab» лицензия #01034 от 6.12.2018 </p>
+            </div>
+            <div class="apps">
+              <p>Наше приложение:</p>
+              <a href="#"><img src="/img/iapp.svg" alt=""> </a>
+              <a href="#"><img src="/img/google.svg" alt=""> </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+            <div class="menu">
+              <a class="active" href="index.html">Главная</a>
+              <a href="#">Анализы и цены</a>
+              <a href="index.html#depos-map1">Где и как сдать анализ</a>
+              <a href="prepare.html">Подготовка к анализам</a>
+              <a href="doctors.html">Врачам</a>
+              <a href="company.html">Организациям</a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+            <div class="menu2">
+              <a href="#" class="lk"><img src="/img/fuser.svg" alt=""> Личный кабинет</a>
+              <a href="#" class="tg">Telegram-канал: <u>t.me/swisslabuz</u></a>
+              <br>
+              <div class="soc">
+                <a href="#"><img src="/img/ffb.svg" alt=""></a>
+                <a href="#"><img src="/img/finst.svg" alt=""></a>
+                <a href="#"><img src="/img/ftg.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-12">
+            <div class="menu2">
+              <a href="#" class="email">info@analizy.uz</a>
+              <p class="address">Наш адрес: <br><span>г.Ташкент, Алмазарский р-н, ул Широк, д.100</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12">
+            <div class="callme">
+              <a href="#" class="phone"><img src="/img/fphone.svg" alt=""> +998 71 207 6556</a>
+              <a href="#" onclick="$('#callme').modal('show');return false;" class="btn btn-invis">Заказать звонок</a>
+              <a href="#" class="up">Наверх</a>
+            </div>
+          </div>
+        </div>
+        <div class="finfo">
+          <p class="p1">ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ, ПРОКОНСУЛЬТИРУЙТЕСЬ СО СПЕЦИАЛИСТОМ</p>
+          <p class="p2">Все права защищены. 2019 - 2020. SWISSLAB</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-labelledby="callmeModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <form action="" method="get">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="callmeModal">Обратная связь</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="recipient-phone" class="col-form-label">Ваш телефон:</label>
+                <input type="text" class="form-control" name="phone" id="recipient-phone" required>
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Сообщение:</label>
+                <textarea class="form-control" name="message" id="message-text"></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+              <button class="btn btn-primary" type="submit">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

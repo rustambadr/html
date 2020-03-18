@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap&subset=cyrillic')
+@import "sass/header.sass"
+@import "sass/sliders.sass"
+@import "sass/section.sass"
+
+$font-stack: Source Sans Pro
+
+body
+  font-family: $font-stack
+  font-style: normal
+  overflow-x: hidden
+
+  @media (min-width: 1200px)
+    .container
+      max-width: 1170px
+
+  .mobile-button
+    position: absolute
+    top: 10px
+    right: 30px
+    display: none
+
+  .slick-slide
+    outline: none
+
+  .btn.btn-white
+    background: #FFFFFF
+    font-weight: 600
+    font-size: 16px
+    line-height: 15px
+    padding: 18px 28px
+    margin-top: 28px
+    border-radius: 0px
+
+  .btn.btn-red
+    background: #D85252
+    box-shadow: 0px 0px 16px rgba(216, 82, 82, 0.86)
+    font-weight: 600
+    font-size: 16px
+    line-height: 20px
+    color: white
+    padding: 18px 28px
+    margin-top: 28px
+    border-radius: 0px
+
+  .btn.btn-invis
+    border: 2px solid #FFFFFF
+    box-sizing: border-box
+    font-weight: 600
+    font-size: 16px
+    line-height: 20px
+    color: white
+    padding: 18px 28px
+    border-radius: 0px
+
+  .slick-dots
+    li
+      margin-bottom: 10px
+
+      button:before
+        opacity: 1
+        color: unset
+        font-size: 0
+
+      button:after
+        font-family: 'slick'
+        font-size: 12px
+        line-height: 12px
+        position: absolute
+        top: 0
+        left: 0
+        width: 10px
+        height: 10px
+        content: '•'
+        text-align: center
+        opacity: 1
+        color: #DBDBDB
+        -webkit-font-smoothing: antialiased
+        -moz-osx-font-smoothing: grayscale
+
+    li.slick-active
+      button
+        color: white
+        font-size: 17px
+        margin-left: -68px
+        font-family: Source Sans Pro
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        margin-top: -5.5px
+
+      button:after
+        color: #1A68B0
+
+      button:before
+        opacity: 1
+        color: unset
+        border: 1px solid rgba(26, 104, 176, 1)
+        box-sizing: border-box
+        height: 34px
+        width: 34px
+        top: -12px
+        right: 12px
+        left: -11px
+        border-radius: 20px
+
+    li.slick-active:after
+      content: '-'
+      font-size: 0px
+      text-align: center
+      opacity: 1
+      position: absolute
+      width: 20px
+      border: 1px solid #818896
+      top: 4px
+      left: -39px
+
+  .logo-text2 p
+    font-weight: 900
+    font-size: 143px
+    line-height: 180px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    color: rgba(255, 255, 255, 0.05)
+    position: absolute
+    right: 0
+
+  .logo-text3 p
+    font-weight: 900
+    font-size: 143px
+    line-height: 180px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    color: rgba(26, 104, 176, 0.05)
+    position: absolute
+    left: 50%
+    margin-top: -70px
+
+  .logo-text p
+    font-weight: 900
+    font-size: 143px
+    line-height: 180px
+    letter-spacing: 0.1em
+    color: rgba(26, 104, 176, 0.05)
+    text-align: right
+
+  .group-list::-webkit-scrollbar
+    width: 2px
+    background: #E8E8E8
+
+  .group-list::-webkit-scrollbar-track
+    background: #E8E8E8
+
+  .group-list::-webkit-scrollbar-thumb
+    background: #1A68B0
+
+  .group-list::-webkit-scrollbar-thumb:hover
+    background: #555
+
+  .group-list
+    height: 385px
+    overflow-y: scroll
+    margin-top: 36px
+
+    .item.active
+      background: #1A68B0
+
+      .short-info
+        display: none
+      .full-info
+        display: block
+      .p3
+        color: #FFFFFF
+        margin-bottom: 20px
+
+    .item
+      background: #FFFFFF
+      border: 1px solid #E8E8E8
+      box-sizing: border-box
+      width: 385px
+      position: relative
+      padding: 19px
+      cursor: pointer
+
+      .short-info
+        display: block
+      .full-info
+        display: none
+      .p3
+        font-weight: bold
+        font-size: 16px
+        line-height: 140%
+        color: #6A6A6A
+        margin: 0
+
+      .plus
+        position: absolute
+        top: 22px
+        right: 22px
+        background: white
+
+      .minus
+        position: absolute
+        top: 22px
+        right: 22px
+
+      .address
+        font-weight: 600
+        font-size: 14px
+        line-height: 140%
+        color: #FFFFFF
+        margin-bottom: 10px
+
+      .how
+        font-size: 12px
+        line-height: 140%
+        color: #FFFFFF
+        margin-bottom: 0
+      .cars
+        font-weight: 600
+        font-size: 14px
+        line-height: 140%
+        color: #FFFFFF
+        margin-bottom: 0
+
+      .clock
+        font-weight: 600
+        font-size: 14px
+        line-height: 125%
+        color: #FFFFFF
+        margin-left: 20px
+        margin-bottom: 13px
+      .clock:before
+        background-size: cover
+        background-position: center
+        content: '.'
+        font-size: 0
+        width: 15px
+        height: 14px
+        margin-left: -20px
+        background-image: url(/img/clock.svg)
+        position: absolute
+        margin-top: 1px
+      .bus
+        font-weight: 600
+        font-size: 14px
+        line-height: 125%
+        color: #FFFFFF
+        margin-left: 20px
+        margin-bottom: 13px
+      .bus:before
+        background-size: cover
+        background-position: center
+        content: '.'
+        font-size: 0
+        width: 15px
+        height: 14px
+        margin-left: -20px
+        background-image: url(/img/bus.svg)
+        position: absolute
+        margin-top: 1px
+  .maps
+    position: absolute
+    top: 0
+    z-index: 0
+    left: 0
+    height: 100%
+    width: 100%
+
+  .balooneP
+    padding-bottom: 16px
+    .baloone
+      background: #1A68B0
+      box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.22)
+      border-radius: 5px
+      width: 231px
+      padding: 12px 15px
+      position: relative
+      p
+        font-weight: 600
+        font-size: 13px
+        line-height: 140%
+        color: #FFFFFF
+        margin: 0
+    .baloone:after
+      content: ''
+      background-image: url('/img/b-bot.svg')
+      position: absolute
+      bottom: -15px
+      width: 22px
+      height: 18px
+      background-size: cover
+      left: calc(50% - 11px)
+    .baloone:before
+      content: ''
+      width: 30px
+      height: 3px
+      background: #FFFFFF
+      position: absolute
+      top: 0
+
+.ymaps-2-1-75-balloon__layout, .ymaps-2-1-75-balloon__content
+  background: unset !important
+.ymaps-2-1-75-balloon
+  box-shadow: unset !important
+.ymaps-2-1-75-balloon__tail
+  display: none !important
+.ymaps-2-1-75-balloon
+  margin-top: -25px
+  margin-left: -67px
+.slick-arrow
+  z-index: -1
+  display: none
+  position: absolute
+  top: 0
+  left: 0
+.slick-dots li button
+  width: 35px
